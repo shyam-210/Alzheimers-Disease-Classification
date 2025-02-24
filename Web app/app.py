@@ -8,7 +8,7 @@ import numpy as np
 app = Flask(__name__)
 
 
-MODEL_PATH = "D:\Python\Projects\Alzheimer's Disease\Web app\model\97_Non_Augmented.keras"
+MODEL_PATH = "D:\Python\Projects\Alzheimer's Disease\Alzheimers-Disease-Classification\Web app\model\97_Non_Augmented.keras"
 model = load_model(MODEL_PATH)
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
